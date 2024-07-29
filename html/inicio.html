@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Lateral</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="sidebar">
+            <div class="logo">Menú Lateral</div>
+            <div class="profile">
+                <img src="../img/logo.jpeg">
+                <h3>Sistema de inicio</h3>
+                <p>Agua Potable</p>
+            </div>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="../php/socios.php">Registrar Socio</a></li>
+                <li><a href="factura.html">Comprobante</a></li>
+                <li><a href="../php/registro_cobro.php">Extras</a></li>
+                <li><a href="../php/registro_medidor.php">Lecturas</a></li>
+                <li><a href="../php/registro_deuda1.php">deudores</a></li>
+                <li><a href="../php/registro_tarifas.php">Tarifas</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+<div class="container">
+  <header>
+      <h1>Sistema de Gestión de Agua Potable</h1>
+  </header>
+  <main>
+      <h2>Administra y optimiza el uso del agua en tu comunidad</h2>
+      <p>Accede a una plataforma dedicada a la supervisión, análisis y gestión del consumo y distribución del agua. Nuestro sistema asegura un manejo eficiente y sostenible del recurso más vital.</p>
+  </main>
+  <footer>
+      <p>&copy; 2024 Sistema de Agua Potable. Todos los derechos reservados.</p>
+  </footer>
+</div>
+<style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+  body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+body {
+background-image: url(../img/000.jpeg);
+color: #000000;
+background-size: cover;
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-size: 84% auto; /* El 50% del ancho de la pantalla, altura automática */
+    background-position: right center; /* Alinea la imagen a la derecha y centra verticalmente */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+
+}
+
+.container {
+width: 91%;
+max-width: 800px;
+position: relative;
+left: 110px;
+
+}
+
+header h1 {
+font-size: 2.5em;
+color: #0d47a1;
+backdrop-filter: blur(5px);
+border-radius: 20px;
+}
+
+main h2 {
+font-size: 2em;
+margin-top: 0.5em;
+margin: auto;
+position: relative;
+backdrop-filter: blur(5px);
+border-radius: 20px;
+
+}
+
+main p {
+font-size: 1.2em;
+line-height: 1.5;
+backdrop-filter: blur(5px);
+border-radius: 20px;
+color: black;
+font-size: 20px;
+}
+
+footer p {
+margin-top: 2em;
+font-size: 1em;
+color: white;
+backdrop-filter: blur(10px);
+}
+.sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+            overflow-y: auto;
+        }
+
+        .sidebar .logo, .sidebar .profile, .sidebar ul {
+            margin-bottom: 20px;
+        }
+
+        .sidebar .profile img {
+            width: 100%;
+            border-radius: 50%;
+        }
+
+        .sidebar h3 {
+            margin: 10px 0;
+        }
+
+        .sidebar p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sidebar ul li {
+            margin: 10px 0;
+        }
+
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar ul li a:hover {
+            background-color: #575757;
+        }
+
+</style>
+</div>
+
+</body>
+</html>
